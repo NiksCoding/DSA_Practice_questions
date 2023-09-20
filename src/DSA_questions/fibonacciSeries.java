@@ -8,6 +8,9 @@ public class fibonacciSeries {
         int[] arr = new int[n+1];
         arr[0]=1;
         arr[1]=1;
+        if (n<0){
+            System.out.println("Enter a value greater than zero");
+        }
          if(n==1){
             arr[0]=1;
             System.out.println(arr[0]);
