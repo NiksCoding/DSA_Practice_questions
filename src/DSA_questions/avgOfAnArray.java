@@ -2,7 +2,7 @@ package DSA_questions;
 
 public class avgOfAnArray {
     int[] arr = {2,3,2,5,3,6,8};
-    int sum =0;
+    double sum =0;
     int n =arr.length;
     public void average(){
         for (int i =0; i<n ;i++){
