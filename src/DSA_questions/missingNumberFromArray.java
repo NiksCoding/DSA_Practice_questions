@@ -10,7 +10,7 @@ public class missingNumberFromArray {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int sum=0;
-    public HashSet<Integer> getNumbersFromUser(){
+    public void getNumbersFromUser(){
         //create ArrayList list
        ArrayList<Integer> list = new ArrayList<>();
         for (int i = 0; i<n ; i++){
@@ -21,14 +21,12 @@ public class missingNumberFromArray {
         HashSet<Integer> set = new HashSet<>(list);
         System.out.println("your unique set : " + set);
 
-
         for (int k : set) {
             //System.out.println(itr.next());
             sum += k;
         }
         System.out.println("sum = " + sum);
 
-        return set;
     }
     public static void main(String[] args) {
         System.out.println("How many numbers u want to write ?");
