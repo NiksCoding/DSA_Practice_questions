@@ -2,10 +2,9 @@ package DSA_questions;
 
 import java.util.ArrayList;
 import java.util.HashSet;
-import java.util.Iterator;
 import java.util.Scanner;
 
-public class missingNumberFromArray {
+public class MissingNumberFromArray {
 
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
@@ -43,7 +42,7 @@ public class missingNumberFromArray {
     public static void main(String[] args) {
         System.out.println("enter n natural number in sequence from 1 to n skipping any one number between them. Numbers can be repetitive ");
         System.out.println("How many numbers u want to write ?");
-        missingNumberFromArray obj = new missingNumberFromArray();
+        MissingNumberFromArray obj = new MissingNumberFromArray();
         obj.findMissingNumber();
     }
 }

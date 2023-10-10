@@ -1,6 +1,6 @@
 package DSA_questions;
 
-public class avgOfAnArray {
+public class AvgOfAnArray {
     int[] arr = {2,3,2,5,3,6,8};
     double sum =0;
     int n =arr.length;
@@ -15,7 +15,7 @@ public class avgOfAnArray {
     }
 
     public static void main(String[] args) {
-        avgOfAnArray obj = new avgOfAnArray();
+        AvgOfAnArray obj = new AvgOfAnArray();
         obj.average();
     }
 }

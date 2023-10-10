@@ -2,7 +2,7 @@ package DSA_questions;
 
 import java.util.Scanner;
 
-public class sticklerThiefProblem {
+public class SticklerThiefProblem {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     int[] arr = new int[n];
@@ -29,7 +29,7 @@ public class sticklerThiefProblem {
 
     public static void main(String[] args) {
         System.out.println("how many houses are there ?" );
-        sticklerThiefProblem obj = new sticklerThiefProblem();
+        SticklerThiefProblem obj = new SticklerThiefProblem();
         obj.maximumLoots();
     }
 }

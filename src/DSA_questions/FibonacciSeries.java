@@ -1,6 +1,6 @@
 package DSA_questions;
 import java.util.Scanner;
-public class fibonacciSeries {
+public class FibonacciSeries {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -12,12 +12,10 @@ public class fibonacciSeries {
             System.out.println("Enter a value greater than zero");
         }
          if(n==1){
-            arr[0]=1;
-            System.out.println(arr[0]);
+             System.out.println(arr[0]);
         }
          if(n==2){
-            arr[1]= 1;
-            System.out.println(arr[1]+" "+arr[1]);
+             System.out.println(arr[1]+" "+arr[1]);
         }
          if(n>2){
             System.out.print(1 +" "+ 1+" ");

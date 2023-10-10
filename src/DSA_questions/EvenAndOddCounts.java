@@ -1,6 +1,6 @@
 package DSA_questions;
 
-public class evenAndOddCounts {
+public class EvenAndOddCounts {
     int[] arr = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     int l = arr.length;
     int even = 0;
@@ -20,7 +20,7 @@ public class evenAndOddCounts {
 
     public static void main(String[] args) {
 
-        evenAndOddCounts obj = new evenAndOddCounts();
+        EvenAndOddCounts obj = new EvenAndOddCounts();
         obj.count();
 
     }
