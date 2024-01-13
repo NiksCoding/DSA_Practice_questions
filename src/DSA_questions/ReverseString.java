@@ -7,7 +7,6 @@ public class ReverseString {
         char[] ch = s.toCharArray();
         String s2 ="";
         System.out.println(s.length());
-
         int i=0;
         while(i<ch.length){
             s2=ch[i]+s2;
