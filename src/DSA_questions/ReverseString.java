@@ -19,7 +19,7 @@ public class ReverseString {
             s3 += ch[j];
 
         }
-        System.out.println(s3);
+        System.out.println(s3.trim());
 
     }
 

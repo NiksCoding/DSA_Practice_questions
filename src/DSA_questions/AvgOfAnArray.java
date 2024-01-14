@@ -17,5 +17,6 @@ public class AvgOfAnArray {
     public static void main(String[] args) {
         AvgOfAnArray obj = new AvgOfAnArray();
         obj.average();
+
     }
 }
